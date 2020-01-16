@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="comment-api" />
+        <module name="comment-provider" />
+        <module name="commons-core" />
+        <module name="commons-lock" />
+        <module name="commons-mq" />
+        <module name="commons-tool" />
+        <module name="coupon-api" />
+        <module name="coupon-provider" />
+        <module name="mall-cashier" />
+        <module name="mall-shopping" />
+        <module name="mall-user" />
+        <module name="market-api" />
+        <module name="market-provider" />
+        <module name="order-api" />
+        <module name="order-provider" />
+        <module name="pay-api" />
+        <module name="pay-provider" />
+        <module name="search-api" />
+        <module name="search-provider" />
+        <module name="shopping-api" />
+        <module name="shopping-provider" />
+        <module name="user-api" />
+        <module name="user-provider" />
+        <module name="user-sdk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gpmall-cashier" target="1.8" />
+      <module name="gpmall-commons" target="1.8" />
+      <module name="gpmall-parent" target="1.8" />
+      <module name="gpmall-shopping" target="1.8" />
+      <module name="gpmall-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

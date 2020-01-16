@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mall-cashier
+  profiles:
+      active: dev
+server:
+  port: 8083
+
+
