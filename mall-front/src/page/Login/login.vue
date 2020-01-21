@@ -157,10 +157,10 @@ export default {
         this.message('账号或者密码不能为空!')
         return false
       }
-      if (!this.ruleForm.captcha) {
-        this.message('请输入验证码!')
-        return false
-      }
+      // if (!this.ruleForm.captcha) {
+      //   this.message('请输入验证码!')
+      //   return false
+      // }
       var params = {
         userName: this.ruleForm.userName,
         userPwd: this.ruleForm.userPwd,

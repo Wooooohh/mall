@@ -5,14 +5,12 @@
         <div class="w-box">
           <div class="nav-logo">
             <h1 @click="changePage(-1)">
-              <router-link to="/" title="咕泡商城">咕泡商城</router-link>
+              <router-link to="/" title="商城">商城</router-link>
             </h1>
           </div>
           <div _ngcontent-c1="" class="container">
             <ul _ngcontent-c1="" class="nav-list"> <!---->
-              <li _ngcontent-c1=""><a _ngcontent-c1="" class="active" title="在线商城" href="/" target="">在线商城 </a></li>
-              <li _ngcontent-c1=""><a _ngcontent-c1="" title="咕泡官网" href="//www.gupaoedu.com"target="_blank"> 咕泡官网 </a></li>
-              <li _ngcontent-c1=""><a _ngcontent-c1="" title="坚果 R1"  href="//gper.club" target="_blank">Gper社区</a></li>
+              <li _ngcontent-c1=""><a _ngcontent-c1="" class="active" title="在线商城" href="/" target="">商城 </a></li>
             </ul>
           </div>
           <div class="right-box">

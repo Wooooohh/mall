@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f9bea6b-a9bd-408b-8054-57e964fa1265" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/gpmall-front/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/dev-client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/api/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/api/goods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/api/public.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/icon/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/icon/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/icon/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/icon/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/icon/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/style/common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/style/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/style/mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/style/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/assets/style/theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/common/footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/common/header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/components/YButton.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/components/buynum.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/components/countDown.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/components/mallGoods.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/components/popup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/components/product.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/components/shelf.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/addCart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/addressList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/allGoods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/cartList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/checkLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/loginOut.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/navList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/orderList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/productDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/mock/quickSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Cart/cart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Checkout/checkout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Goods/goods.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Goods/goodsDetails.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Home/home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Login/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Login/register.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Order/alipay.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Order/order.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Order/payment.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Order/paysuccess.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Order/qqpay.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Order/wechat.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Refresh/refreshgoods.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Refresh/refreshsearch.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Search/search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/Thanks/thanks.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/User/children/addressList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/User/children/aihuishou.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/User/children/coupon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/User/children/information.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/User/children/order.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/User/children/orderDetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/User/children/support.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/User/user.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/page/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/store/action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/store/mutation-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/store/mutations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/utils/area/city.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/utils/area/country.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/utils/area/province.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/src/utils/storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/geetest/gt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/account-icon@2x.32d87deb02b3d1c3cc5bcff0c26314ac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/alipay@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/bg_9b9dcb65ff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/bg_9b9dcb65ff@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/cart-empty-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/cart-empty_@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/cart-updown_8303731e15@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/checkbox-new_631a56a4f6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/con-bg_04f25dbf8e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/delete-btn-icon_a35bf2437e@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/dialog-gray-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/load.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/logo_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/nav_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/no-data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/no-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/other-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/qqpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/qr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/safe-status-problem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/safe-status.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/support.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/user-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/wechat-explain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/images/weixinpay@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/qr/weixin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/qr/zhifubao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/svg/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/svg/jia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/svg/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpmall-front/static/svg/shop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-cashier/src/main/java/com/mall/cashier/bootstrap/GpmallCashierApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-cashier/src/main/java/com/mall/cashier/bootstrap/MallCashierApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-cashier/src/test/java/com/mall/cashier/bootstrap/GpmallCashierApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-cashier/src/test/java/com/mall/cashier/bootstrap/MallCashierApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-user/src/main/java/com/mall/user/malluser/GpmallUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-user/src/main/java/com/mall/user/malluser/MallUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-user/src/test/java/com/mall/user/malluser/GpmallUserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-user/src/test/java/com/mall/user/malluser/MallUserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-service/search-provider/src/main/java/com/mall/search/services/ProductSearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/search-provider/src/main/java/com/mall/search/services/ProductSearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/HomeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/HomeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/ProductCateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/ProductCateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/mall/user/services/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/mall/user/services/UserLoginServiceImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/comment-service/target/" />
+    <ignored path="$PROJECT_DIR$/mall-commons/commons-core/target/" />
+    <ignored path="$PROJECT_DIR$/mall-commons/commons-mq/target/" />
+    <ignored path="$PROJECT_DIR$/comment-service/comment-provider/target/" />
+    <ignored path="$PROJECT_DIR$/comment-service/comment-api/target/" />
+    <ignored path="$PROJECT_DIR$/mall-commons/commons-lock/target/" />
+    <ignored path="$PROJECT_DIR$/coupon-service/coupon-api/target/" />
+    <ignored path="$PROJECT_DIR$/mall-commons/commons-tool/target/" />
+    <ignored path="$PROJECT_DIR$/coupon-service/target/" />
+    <ignored path="$PROJECT_DIR$/coupon-service/coupon-provider/target/" />
+    <ignored path="$PROJECT_DIR$/mall-commons/target/" />
+    <ignored path="$PROJECT_DIR$/mall-parent/target/" />
+    <ignored path="$PROJECT_DIR$/mall-cashier/target/" />
+    <ignored path="$PROJECT_DIR$/mall-shopping/target/" />
+    <ignored path="$PROJECT_DIR$/mall-user/target/" />
+    <ignored path="$PROJECT_DIR$/market-service/market-api/target/" />
+    <ignored path="$PROJECT_DIR$/market-service/market-provider/target/" />
+    <ignored path="$PROJECT_DIR$/order-services/target/" />
+    <ignored path="$PROJECT_DIR$/pay-service/pay-api/target/" />
+    <ignored path="$PROJECT_DIR$/pay-service/pay-provider/target/" />
+    <ignored path="$PROJECT_DIR$/pay-service/target/" />
+    <ignored path="$PROJECT_DIR$/market-service/target/" />
+    <ignored path="$PROJECT_DIR$/order-services/order-api/target/" />
+    <ignored path="$PROJECT_DIR$/search-service/search-provider/target/" />
+    <ignored path="$PROJECT_DIR$/search-service/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-service/shopping-api/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-service/shopping-provider/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-service/target/" />
+    <ignored path="$PROJECT_DIR$/user-service/user-api/target/" />
+    <ignored path="$PROJECT_DIR$/user-service/user-provider/target/" />
+    <ignored path="$PROJECT_DIR$/user-service/user-sdk/target/" />
+    <ignored path="$PROJECT_DIR$/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/search-service/search-api/target/" />
+    <ignored path="$PROJECT_DIR$/order-services/order-provider/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gpmall" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/protocol/ProtocolFilterWrapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
+              <folding>
+                <element signature="e#2977#2978#0" expanded="true" />
+                <element signature="e#3030#3031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/protocol/dubbo/DubboProtocol.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="e#7231#7232#0" expanded="true" />
+                <element signature="e#7262#7263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="170" column="16" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/remoting/transport/DecodeHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/remoting/transport/dispatcher/ChannelEventRunnable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/ProductCateServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/HomeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="77" column="20" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/mall/user/services/UserLoginServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/mall/user/services/KaptchaServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-405">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/filter/EchoFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GpmallUserApplication</find>
+      <find>192.168.0.5</find>
+      <find>IProductService</find>
+      <find>redissonClient.getScript().scriptLoad(luaScript);</find>
+      <find>redissonClient.getScript()</find>
+      <find>getAllProductCate</find>
+      <find>UserLoginServiceImpl</find>
+      <find>IKaptcha</find>
+      <find>KaptchaServiceImpl</find>
+      <find>IKaptchaService</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>MallUserApplication</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mall-cashier/src/main/java/com/mall/cashier/bootstrap/GpmallCashierApplication.java" />
+        <option value="$PROJECT_DIR$/search-service/search-provider/src/main/java/com/mall/search/repository/ProductRepository.java" />
+        <option value="$PROJECT_DIR$/search-service/search-provider/src/main/java/com/mall/search/services/ProductSearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mall-user/src/test/java/com/mall/user/malluser/MallUserApplicationTests.java" />
+        <option value="$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/ProductCateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/HomeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/mall/user/services/UserLoginServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="92" />
+    <option name="y" value="19" />
+    <option name="width" value="1940" />
+    <option name="height" value="898" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579449820437" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShoppingProviderApplication">
+    <configuration name="CommentProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="comment-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.comment.bootstrap.CommentProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CouponProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coupon-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.coupon.bootstrap.CouponProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallCashierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-cashier" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.cashier.bootstrap.MallCashierApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallShoppingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-shopping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.shopping.mallshopping.MallShoppingApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="market-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.market.marketprovider.MarketProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.order.bootstrap.OrderProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pay-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.pay.bootstrap.PayProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="search-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.search.bootstrap.SearchProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.shopping.bootstrap.ShoppingProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.user.malluser.MallUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.user.bootstrap.UserProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CommentProviderApplication" />
+      <item itemvalue="Spring Boot.CouponProviderApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.MallCashierApplication" />
+      <item itemvalue="Spring Boot.MallShoppingApplication" />
+      <item itemvalue="Spring Boot.MarketProviderApplication" />
+      <item itemvalue="Spring Boot.OrderProviderApplication" />
+      <item itemvalue="Spring Boot.PayProviderApplication" />
+      <item itemvalue="Spring Boot.SearchProviderApplication" />
+      <item itemvalue="Spring Boot.ShoppingProviderApplication" />
+      <item itemvalue="Spring Boot.UserProviderApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f9bea6b-a9bd-408b-8054-57e964fa1265" name="Default Changelist" comment="" />
+      <created>1578219470889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578219470889</updated>
+      <workItem from="1578219477252" duration="865000" />
+      <workItem from="1578309257099" duration="6622000" />
+      <workItem from="1578371896289" duration="17312000" />
+      <workItem from="1578455527922" duration="15456000" />
+      <workItem from="1578539933375" duration="19548000" />
+      <workItem from="1578618172647" duration="640000" />
+      <workItem from="1578648601547" duration="3902000" />
+      <workItem from="1578659635199" duration="11311000" />
+      <workItem from="1578716416207" duration="12797000" />
+      <workItem from="1578797086671" duration="3257000" />
+      <workItem from="1578841143405" duration="1521000" />
+      <workItem from="1578880415079" duration="1212000" />
+      <workItem from="1579074578532" duration="2607000" />
+      <workItem from="1579142434028" duration="12825000" />
+      <workItem from="1579186027960" duration="875000" />
+      <workItem from="1579357825667" duration="2615000" />
+      <workItem from="1579409080265" duration="15038000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17793000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-27" y="27" width="1940" height="898" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.17234042" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Favorites" order="7" sideWeight="0.5011287" side_tool="true" weight="0.2153518" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86170214" weight="0.29319373" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.89468086" weight="0.5366492" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.5127479" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13829787" side_tool="true" visible="true" weight="0.29319373" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4227079" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.48933902" weight="0.3253796" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43342775" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mall-cashier/src/test/java/com/mall/cashier/bootstrap/MallCashierApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-user/src/test/java/com/mall/user/malluser/MallUserApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-service/search-provider/src/main/java/com/mall/search/repository/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-service/search-provider/src/main/java/com/mall/search/services/ProductSearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchDataAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="5" column="66" lean-forward="true" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/ProductCateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/ProductCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-shopping/src/main/java/com/mall/shopping/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-api/src/main/java/com/mall/shopping/IProductCateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-api/src/main/java/com/mall/shopping/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-api/src/main/java/com/mall/shopping/IHomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-api/src/main/java/com/mall/shopping/ICartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-api/src/main/java/com/mall/shopping/constants/ShoppingRetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/converter/CartItemConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/converter/ContentConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/converter/ProductCateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/converter/ProductConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/pay-provider/src/main/java/com/mall/pay/services/PayCoreServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-service/pay-provider/src/main/java/com/mall/pay/services/PayQueryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/cache/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/proxy/javassist/JavassistProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/proxy/AbstractProxyInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/config/invoker/DelegateProviderMetaDataInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/protocol/InvokerWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/filter/ExceptionFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/monitor/support/MonitorFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/filter/TimeoutFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/protocol/dubbo/filter/TraceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/filter/ContextFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/filter/GenericFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/filter/ClassLoaderFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/filter/EchoFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/protocol/ProtocolFilterWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="e#2977#2978#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/rpc/protocol/dubbo/DubboProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#7231#7232#0" expanded="true" />
+            <element signature="e#7262#7263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="170" column="16" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/remoting/transport/DecodeHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/org/apache/dubbo/remoting/transport/dispatcher/ChannelEventRunnable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/ProductCateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-service/shopping-provider/src/main/java/com/mall/shopping/services/HomeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="77" column="20" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/mall/user/services/UserLoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/mall/user/services/KaptchaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mall-cashier</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

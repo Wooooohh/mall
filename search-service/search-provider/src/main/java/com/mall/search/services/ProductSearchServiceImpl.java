@@ -10,6 +10,7 @@ import com.mall.search.dto.ProductDto;
 import com.mall.search.dto.SearchRequest;
 import com.mall.search.dto.SearchResponse;
 import com.mall.search.entity.ItemDocument;
+//import com.mall.search.repository.ProductRepository;
 import com.mall.search.repository.ProductRepository;
 import com.mall.search.utils.ExceptionProcessorUtils;
 import lombok.extern.slf4j.Slf4j;

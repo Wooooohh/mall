@@ -30,13 +30,9 @@ public class HomeServiceImpl implements IHomeService {
 
   @Autowired PanelMapper panelMapper;
   @Autowired PanelContentMapper panelContentMapper;
-  @Autowired
-  ContentConverter contentConverter;
-
+  @Autowired ContentConverter contentConverter;
   @Autowired RedissonClient redissonClient;
-
-  @Autowired
-  CacheManager cacheManager;
+  @Autowired CacheManager cacheManager;
 
   @Override
   public HomePageResponse homepage() {
