@@ -21,12 +21,11 @@ import java.util.List;
 
 /**
  * 配置Swagger2。
- * Created by ZZZ on 2019/2/18.
  */
 @Setter
 @Configuration
 @EnableSwagger2
-@ConfigurationProperties("swagger")
+//@ConfigurationProperties("swagger")
 public class Swagger2 {
 
     private boolean enable;

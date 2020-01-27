@@ -17,8 +17,7 @@ public class AddressController {
      * @return
      */
     @GetMapping("/address")
-    public ResponseData address(){
-        return new ResponseUtil<>().setData(null);
+    public ResponseData address(){return new ResponseUtil<>().setData(null);
     }
 
 

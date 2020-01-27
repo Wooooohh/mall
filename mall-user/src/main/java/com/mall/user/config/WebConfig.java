@@ -11,8 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig implements WebMvcConfigurer {
 
     @Bean
-    public TokenIntercepter tokenIntercepter(){
-        return new TokenIntercepter();
+    public TokenIntercepter tokenIntercepter(){ return new TokenIntercepter();
     }
     @Override
     public void addInterceptors(InterceptorRegistry registry) {

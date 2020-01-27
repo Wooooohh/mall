@@ -30,7 +30,6 @@ public class AddressController {
 
     /**
      * 获取当前用户的地址列表
-     *
      * @return
      */
     @GetMapping("/addresses")
