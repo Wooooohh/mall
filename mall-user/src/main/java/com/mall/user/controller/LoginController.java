@@ -33,7 +33,7 @@ public class LoginController {
   IKaptchaService kaptchaService;
 
   /** 验证码开关 */
-  @Value("${captchaFlag:true}")
+  @Value("${captchaFlag:false}")
   private boolean captchaFlag;
 
   @Anoymous
@@ -45,19 +45,19 @@ public class LoginController {
     UserLoginRequest loginRequest = new UserLoginRequest();
     loginRequest.setPassword(map.get("userPwd"));
     loginRequest.setUserName(map.get("userName"));
-    String captcha = map.get("captcha");
+//    String captcha = map.get("captcha");
 
-    if (captchaFlag) {
-      KaptchaCodeRequest kaptchaCodeRequest = new KaptchaCodeRequest();
-      String uuid = CookieUtil.getCookieValue(request, "kaptcha_uuid");
-      kaptchaCodeRequest.setCode(captcha);
-      kaptchaCodeRequest.setUuid(uuid);
-      KaptchaCodeResponse kaptchaCodeResponse =
-          kaptchaService.validateKaptchaCode(kaptchaCodeRequest);
-      if (!kaptchaCodeResponse.getCode().equals(SysRetCodeConstants.SUCCESS.getCode())) {
-        return new ResponseUtil<>().setErrorMsg(kaptchaCodeResponse.getMsg());
-      }
-    }
+//    if (captchaFlag) {
+//      KaptchaCodeRequest kaptchaCodeRequest = new KaptchaCodeRequest();
+//      String uuid = CookieUtil.getCookieValue(request, "kaptcha_uuid");
+//      kaptchaCodeRequest.setCode(captcha);
+//      kaptchaCodeRequest.setUuid(uuid);
+//      KaptchaCodeResponse kaptchaCodeResponse =
+//          kaptchaService.validateKaptchaCode(kaptchaCodeRequest);
+//      if (!kaptchaCodeResponse.getCode().equals(SysRetCodeConstants.SUCCESS.getCode())) {
+//        return new ResponseUtil<>().setErrorMsg(kaptchaCodeResponse.getMsg());
+//      }
+//    }
     UserLoginResponse userLoginResponse = iUserLoginService.login(loginRequest);
     if (userLoginResponse.getCode().equals(SysRetCodeConstants.SUCCESS.getCode())) {
       Cookie cookie =

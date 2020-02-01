@@ -23,9 +23,6 @@ public class CaptchaController {
     @Reference(timeout = 3000)
     IKaptchaService kaptchaService;
 
-    /**
-     *
-     */
     @Anoymous
     @GetMapping("/kaptcha")
     public ResponseData getKaptchaCode(HttpServletResponse response) {
@@ -33,7 +30,7 @@ public class CaptchaController {
         KaptchaCodeResponse kaptchaCodeResponse=kaptchaService.getKaptchaCode(kaptchaCodeRequest);
         if(kaptchaCodeResponse.getCode().equals(SysRetCodeConstants.SUCCESS.getCode())){
             Cookie cookie=CookieUtil.genCookie("kaptcha_uuid",kaptchaCodeResponse.getUuid(),"/",60);
-            cookie.setHttpOnly(true);
+//            cookie.setHttpOnly(true);
             response.addCookie(cookie);
             return new ResponseUtil<>().setData(kaptchaCodeResponse.getImageCode());
         }

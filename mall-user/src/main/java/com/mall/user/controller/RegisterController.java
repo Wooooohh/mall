@@ -35,21 +35,21 @@ public class RegisterController {
     public ResponseData register(@RequestBody Map<String,String> map, HttpServletRequest request){
         String userName=map.get("userName");
         String userPwd=map.get("userPwd");
-        String captcha=map.get("captcha");
-        String email=map.get("email");
-        KaptchaCodeRequest kaptchaCodeRequest = new KaptchaCodeRequest();
-        String uuid = CookieUtil.getCookieValue(request, "kaptcha_uuid");
-        kaptchaCodeRequest.setUuid(uuid);
-        kaptchaCodeRequest.setCode(captcha);
-        KaptchaCodeResponse response = kaptchaService.validateKaptchaCode(kaptchaCodeRequest);
-        if (!response.getCode().equals(SysRetCodeConstants.SUCCESS.getCode())) {
-            return new ResponseUtil<>().setErrorMsg(response.getMsg());
-        }
+//        String captcha=map.get("captcha");
+//        String email=map.get("email");
+//        KaptchaCodeRequest kaptchaCodeRequest = new KaptchaCodeRequest();
+//        String uuid = CookieUtil.getCookieValue(request, "kaptcha_uuid");
+//        kaptchaCodeRequest.setUuid(uuid);
+//        kaptchaCodeRequest.setCode(captcha);
+//        KaptchaCodeResponse response = kaptchaService.validateKaptchaCode(kaptchaCodeRequest);
+//        if (!response.getCode().equals(SysRetCodeConstants.SUCCESS.getCode())) {
+//            return new ResponseUtil<>().setErrorMsg(response.getMsg());
+//        }
 
         UserRegisterRequest registerRequest=new UserRegisterRequest();
         registerRequest.setUserName(userName);
         registerRequest.setUserPwd(userPwd);
-        registerRequest.setEmail(email);
+//        registerRequest.setEmail(email);
         UserRegisterResponse registerResponse=iUserRegisterService.register(registerRequest);
 
         if(registerResponse.getCode().equals(SysRetCodeConstants.SUCCESS.getCode())) {
